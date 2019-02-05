@@ -1,11 +1,11 @@
 # Animal_tradecard
 
-##Description
+### Description
 This project is based on designing of a descriptive card based on elaborating different information regarding a species.
 
-##Requirements
+### Requirements
 HTML(hypertext markup language) 
 CSS (cascading style sheet )
 
-##Installation
+### Installation
 Any editor will work like visual studio,atom or basic notepad
