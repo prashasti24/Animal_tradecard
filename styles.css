@@ -1,0 +1,132 @@
+/* web page title */
+.web_title 
+{
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center;
+	color: rgba(247, 80, 51, 0.89);
+	font-style: italic;
+}
+/* card layout design */
+.card_layout 
+{
+	height: 971px;
+	box-shadow: 0 5px 15px 0 ;
+	border-radius: 4px;
+	background-color: rgb(161, 201, 115);
+    width: 350px;
+    border: 25px solid rgb(4, 90, 37);
+     padding: 25px; 
+	margin: 25px;
+}
+/* upper section of card */
+.card_top 
+{
+	height: 290px;
+	border-radius: 4px 4px 0 0;
+	border: 1px outset;
+	padding: 0 16px; 
+		
+}
+/* lower section of card */
+.card_bottom
+{
+	height: 678px;
+	border-radius: 4px 4px 0 0;
+	border: 1px outset;
+	padding: 0 16px ;
+}
+/* background color to webpage */
+body
+{
+	background-color: rgb(252, 251, 195);
+}
+/* heading tag used for animal name styling */
+ h3
+{  
+	color: #05501b;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 30px;
+	text-decoration: underline;
+	border-style: groove;
+	text-transform: uppercase;
+	text-align: center;
+}
+ /* animal image styling */
+.img
+{   width: 300px;
+	border-radius: 9px;
+	height: 210px; 
+	margin-left: auto;
+	margin-right: auto;    
+}
+/* information about animal */
+.description_box 
+{  display: inline-block;
+    width: 309px;
+    height: 170px;
+    margin: 10px;
+    border: 3px solid rgb(5, 78, 24);  
+}
+/* headings in floating box i.e information headings */
+.heading
+ {  text-transform: uppercase;
+	font-weight: bold;
+	color: rgb(161, 63, 18);
+    font-size: 18px;
+ }
+ /* only for description part of animal */
+ .facts_block 
+ {  display: inline-block;
+    width: 309px;
+    height: 26px;
+    margin: 10px;
+	border: 3px solid rgb(5, 78, 24); 
+
+ } 
+ /* text styling for content used for animal information */
+ .facts_text
+ {  font-weight: bold;
+	font-size: 17px;
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+	text-transform: capitalize;
+ }
+ /* text styling for content with different font size */
+ .content_text
+ {  font-weight: bold;
+	font-size: 14px;
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+	text-transform: capitalize;
+ }
+ /* alignment of card to center */
+ .center 
+{   margin: auto;
+    padding: 10px;
+}
+/* interesting fact about animal */
+.interestingfact_block 
+ {  display: inline-block;
+    width: 309px;
+    height: 88px;
+    margin: 10px;
+	border: 3px solid rgb(5, 78, 24); 
+
+ }
+ .interestingfact_text
+ {  font-weight: bold;
+	font-size: 17px;
+	color: rgb(236, 6, 6);
+	text-transform: capitalize;
+	font-style: italic;
+ } 
+ .interestingfact_heading
+ {  text-transform: uppercase;
+	font-weight: bold;
+	color: rgb(14, 6, 3);
+	font-size: 18px;
+	font-style: italic;
+ }
